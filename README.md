@@ -1,26 +1,26 @@
 # 📺 Video Proxy Player
 
-iFrame URL পেস্ট করো, সাথে সাথে video play হবে।
+Paste any iframe URL and play the video instantly.
 
 ## Features
-- iframe `src` URL বা full `<iframe>` tag — দুটোই সাপোর্ট করে
-- History সেভ হয় (localStorage)
-- **PWA** — Add to Home Screen করলে app-এর মতো কাজ করে
+- Supports both iframe `src` URL and full `<iframe>` tag
+- History saved automatically (localStorage)
+- **PWA** — Works like an app when added to Home Screen
 - Offline support (service worker)
 
 ## GitHub Pages Deploy
 
-1. এই repo fork বা clone করো
-2. **Settings → Pages → Source:** `GitHub Actions` সিলেক্ট করো
-3. `main` branch-এ push করো → auto deploy হবে
+1. Fork or clone this repo
+2. **Settings → Pages → Source:** select `GitHub Actions`
+3. Push to `main` branch → auto deploy
 
 ## Local Run
 
 ```bash
-# যেকোনো static server দিয়ে চালাও
+# Run with any static server
 npx serve .
-# অথবা
+# or
 python3 -m http.server 8080
 ```
 
-> ⚠️ Service worker HTTPS বা localhost ছাড়া কাজ করে না।
+> ⚠️ Service worker only works on HTTPS or localhost.
