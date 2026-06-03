@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a0f"/>
+  <rect x="2" y="2" width="508" height="508" fill="none" stroke="#e8ff3c" stroke-width="4"/>
+  <!-- Grid -->
+  <line x1="0" y1="128" x2="512" y2="128" stroke="#e8ff3c" stroke-width="1" opacity="0.12"/>
+  <line x1="0" y1="256" x2="512" y2="256" stroke="#e8ff3c" stroke-width="1" opacity="0.12"/>
+  <line x1="0" y1="384" x2="512" y2="384" stroke="#e8ff3c" stroke-width="1" opacity="0.12"/>
+  <line x1="128" y1="0" x2="128" y2="512" stroke="#e8ff3c" stroke-width="1" opacity="0.12"/>
+  <line x1="256" y1="0" x2="256" y2="512" stroke="#e8ff3c" stroke-width="1" opacity="0.12"/>
+  <line x1="384" y1="0" x2="384" y2="512" stroke="#e8ff3c" stroke-width="1" opacity="0.12"/>
+  <!-- Play triangle -->
+  <polygon points="180,136 180,376 396,256" fill="#e8ff3c"/>
+  <!-- Accent dot -->
+  <circle cx="404" cy="108" r="22" fill="#3cffb4"/>
+</svg>
