@@ -1,5 +1,7 @@
 # 📺 Video Proxy Player
 
+🔗 **Live Site:** [https://pabitra-senpai.github.io/video-proxy-player/](https://pabitra-senpai.github.io/video-proxy-player/)
+
 Paste any iframe URL and play the video instantly.
 
 ## Features
